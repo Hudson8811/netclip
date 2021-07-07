@@ -1,0 +1,14 @@
+extends ../layouts/default
+
+block vars
+	-
+		const page = {
+			title: 'Главная'
+		};
+
+block main
+	include ../blocks/welcome.pug
+	include ../blocks/advantages.pug
+	include ../blocks/partners.pug
+	include ../blocks/works.pug
+	include ../blocks/calculate.pug

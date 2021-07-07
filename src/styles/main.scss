@@ -1,0 +1,33 @@
+/* base */
+@import "base/var";
+@import "base/reset";
+@import "base/fonts";
+
+/* mixin */
+@import "base/mixin";
+
+/*libs*/
+@import "./../../node_modules/swiper/swiper";
+
+/* main */
+@import "partials/main";
+
+/* components */
+@import "partials/header";
+@import "partials/footer";
+@import "partials/buttons";
+@import "partials/form-elements";
+@import "partials/title";
+
+/*blocks*/
+@import "blocks/grid";
+@import "blocks/welcome";
+@import "blocks/advantages";
+@import "blocks/partners";
+@import "blocks/works";
+@import "blocks/works-item";
+@import "blocks/calculate";
+@import "blocks/calculator";
+
+
+
